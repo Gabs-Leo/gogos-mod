@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT"
+[[mods]]
+modId="gogosmod"
+version="${file.jarVersion}"
+displayName="Gogos Mod"
+logoFile="watermelon.jpg"
+credits="Testing mod development"
+authors="GabsLeo"
+description='''
+Testing mod development.
+'''
+[[dependencies.gogosmod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[43,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.gogosmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2,1.20)"
+    ordering="NONE"
+    side="BOTH"
