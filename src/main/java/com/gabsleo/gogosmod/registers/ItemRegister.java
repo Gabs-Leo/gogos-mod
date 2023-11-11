@@ -1,5 +1,6 @@
 package com.gabsleo.gogosmod.registers;
 import com.gabsleo.gogosmod.GogosMod;
+import com.gabsleo.gogosmod.entities.ExampleItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -14,6 +15,6 @@ public class ItemRegister {
 
     public static final RegistryObject<Item> EXAMPLE_ITEM = register(
             "gogos",
-            () -> new Item(new Item.Properties().tab(GogosMod.MOD_TAB))
+            () -> new ExampleItem(new Item.Properties().tab(GogosMod.MOD_TAB))
     );
 }
